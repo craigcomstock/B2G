@@ -84,7 +84,6 @@ case "$1" in
 	repo_sync $1
 	;;
 
-case "$1" in	
 "gp-peak")
 	echo DEVICE=peak >> .tmp-config &&
 	repo_sync $1
